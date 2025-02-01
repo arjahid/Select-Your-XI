@@ -18,7 +18,7 @@ const Aplayers = ({player,handlePlayer}) => {
                 <h2>{category}</h2>
                 <div className='flex items-center justify-between gap-2 pt-3'>
                     <h2>Price: {price}</h2>
-                    <button onClick={()=>handlePlayer(price)} className='ml-12 bg-gray-200 border-spacing-2 rounded-lg px-4 py-2 text-sm font-semibold text-black-500 hover:bg-yellow-300 shadow-md'>Chose Player</button>
+                    <button onClick={()=>handlePlayer(player)} className='ml-12 bg-gray-200 border-spacing-2 rounded-lg px-4 py-2 text-sm font-semibold text-black-500 hover:bg-yellow-300 shadow-md'>Chose Player</button>
                 </div>
                 
             </div>

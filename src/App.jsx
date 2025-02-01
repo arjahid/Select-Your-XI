@@ -10,28 +10,38 @@ import AviablePlayer from './components/AviablePlayer/AviablePlayer';
 function App() {
  
   const [money,setMoney]=useState(0)
+  const [players,setPlayer]=useState([])
 // ^handle add money on main balance
   const handleAddMoney=()=>{
     
-    const value=9900000;
+    const value=10000000;
     if(money>=value){
       return
     }
-    toast(`You have successfully claimed 60000 coins`,{
+    toast(`You have successfully claimed 10000000 coins`,{
       position:"top-center",
     })
     setMoney(money+value)
   }
   // ^handle player buying
-  const handlePlayer=(price)=>{
-    console.log('player click',price)
-    if(money>=price){
-      setMoney(money-price)
-      toast(`You have successfully buy player`,{
-        position:"top-center",
-      })
-    
-  }
+  const handlePlayer=(player)=>{
+    const{price,player_name}=player
+    console.log('player click', price);
+if (money >= price) {
+  setMoney(money - price);
+  toast(`Congrats !!${player_name} is now your squad `, {
+    position: "top-center",
+  });
+} else {
+  toast(`You do not have enough money`, {
+    position: "top-center",
+  });
+}
+setPlayer([...players,player])
+if(players.length>=11){
+  toast(`You have selected 11 players`, {
+    position: "top-center",
+  });}
 }
 
   return (
@@ -39,10 +49,12 @@ function App() {
       
       <Heder  money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
-      <Aviable></Aviable>
+      <Aviable player={players}></Aviable>
       <AviablePlayer handlePlayer={handlePlayer}></AviablePlayer>
       
+      
       <ToastContainer />
+     
     </>
   )
 }
