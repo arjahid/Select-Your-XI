@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Heder = ({money}) => {
     return (
@@ -24,5 +24,8 @@ const Heder = ({money}) => {
         </div>
     );
 };
+Heder.propTypes={
+    money:PropTypes.number
+}
 
 export default Heder;
