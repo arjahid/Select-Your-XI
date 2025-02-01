@@ -6,27 +6,24 @@ import Banner from './components/Banner/Banner'
 import Heder from './components/Header/Heder'
 
 function App() {
-  const [amount,setAmount]=useState(0)
+ 
+  const [money,setMoney]=useState(0)
 
-  const handleAmount=(amount)=>{
-    console.log('button clicked')
+  const handleAddMoney=()=>{
+    console.log('button click',money)
     const value=60000;
-    if(amount>=value){
-      return;
+    if(money>=value){
+      return
     }
-    const newAmount=amount+value;
-    setAmount(newAmount)
-    
-    
-    
+    setMoney(money+value)
   }
   
 
   return (
     <>
       
-      <Heder amount={amount}></Heder>
-      <Banner handleAmount={handleAmount} amount={amount}></Banner>
+      <Heder money={money}></Heder>
+      <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
       
      
     </>
