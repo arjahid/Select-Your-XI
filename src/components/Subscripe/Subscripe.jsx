@@ -7,7 +7,7 @@ const Subscripe = () => {
         </div>
       <div className="join flex justify-center items-center mt-12">
         <input className="input input-bordered join-item" placeholder="Email" />
-        <button className="btn join-item rounded-r-full">Subscribe</button>
+        <button className="btn join-item rounded-r-full bg-gradient-to-r from-purple-400 via-pink-300 to-red-300">Subscribe</button>
       </div>
     </div>
   );
