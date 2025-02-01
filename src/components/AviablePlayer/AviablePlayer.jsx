@@ -5,7 +5,7 @@ import Aplayers from "../AviablePlayers/Aplayers";
 
 
 
-const AviablePlayer = () => {
+const AviablePlayer = ({handlePlayer}) => {
     const [players,setPlayer]=useState([])
     useEffect(()=>{
         fetch('data.json')
@@ -18,7 +18,11 @@ const AviablePlayer = () => {
             <div className="grid grid-cols-3 gap-4 border-2 border-gray-300 p-4">
             
             {
-                players.map(player=><Aplayers key={player.id} player={player}></Aplayers>)
+                players.map(player=><Aplayers 
+                    key={player.id}
+                     player={player}
+                     handlePlayer={handlePlayer}
+                     ></Aplayers>)
             }
             
             </div>

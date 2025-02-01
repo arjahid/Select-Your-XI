@@ -10,10 +10,10 @@ import AviablePlayer from './components/AviablePlayer/AviablePlayer';
 function App() {
  
   const [money,setMoney]=useState(0)
-
+// ^handle add money on main balance
   const handleAddMoney=()=>{
     
-    const value=60000;
+    const value=9900000;
     if(money>=value){
       return
     }
@@ -22,7 +22,17 @@ function App() {
     })
     setMoney(money+value)
   }
-  
+  // ^handle player buying
+  const handlePlayer=(price)=>{
+    console.log('player click',price)
+    if(money>=price){
+      setMoney(money-price)
+      toast(`You have successfully buy player`,{
+        position:"top-center",
+      })
+    
+  }
+}
 
   return (
     <>
@@ -30,7 +40,7 @@ function App() {
       <Heder  money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
       <Aviable></Aviable>
-      <AviablePlayer></AviablePlayer>
+      <AviablePlayer handlePlayer={handlePlayer}></AviablePlayer>
       
       <ToastContainer />
     </>

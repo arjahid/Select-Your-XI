@@ -6,7 +6,7 @@
       "batting_style": "Right-hand bat",
       "rating": 87,
       "category": "Right-hand bat, Right-arm offbreak",
-      "price": "$1.2M"
+      "price": "900000"
     },
     {
       "player_name": "Rahul Verma",
@@ -15,7 +15,7 @@
       "batting_style": "Right-hand bat",
       "rating": 92,
       "category": "Right-hand bat, Right-arm legbreak",
-      "price": "$1.5M"
+      "price": "1000000"
     },
     {
       "player_name": "James Anderson",
@@ -24,7 +24,7 @@
       "batting_style": "Left-hand bat",
       "rating": 85,
       "category": "Left-hand bat, Right-arm fast",
-      "price": "$950K"
+      "price": "900000"
     },
     {
       "player_name": "Carlos Mendes",
@@ -33,7 +33,7 @@
       "batting_style": "Right-hand bat",
       "rating": 89,
       "category": "Right-hand bat, Right-arm fast-medium",
-      "price": "$1.3M"
+      "price": "700000"
     },
     {
       "player_name": "Hassan Riaz",
@@ -42,7 +42,7 @@
       "batting_style": "Left-hand bat",
       "rating": 90,
       "category": "Left-hand bat, Left-arm orthodox",
-      "price": "$1.4M"
+      "price": "500000"
     },
     {
       "player_name": "Kevin O'Brien",
@@ -51,7 +51,7 @@
       "batting_style": "Right-hand bat",
       "rating": 86,
       "category": "Right-hand bat, Right-arm medium-fast",
-      "price": "$1.1M"
+      "price": "900000"
     },
     {
       "player_name": "Nathan Lee",
@@ -60,7 +60,7 @@
       "batting_style": "Right-hand bat",
       "rating": 88,
       "category": "Right-hand bat, Right-arm offbreak",
-      "price": "$1.25M"
+      "price": "300000"
     },
     {
       "player_name": "Rizwan Sheikh",
@@ -69,7 +69,7 @@
       "batting_style": "Left-hand bat",
       "rating": 91,
       "category": "Left-hand bat, Right-arm legbreak",
-      "price": "$1.6M"
+      "price": "800000"
     },
     {
       "player_name": "David Warner",
@@ -78,7 +78,7 @@
       "batting_style": "Left-hand bat",
       "rating": 94,
       "category": "Left-hand bat, Right-arm medium",
-      "price": "$1.8M"
+      "price": "1100000"
     },
     {
       "player_name": "Samuel Mathews",
@@ -87,7 +87,7 @@
       "batting_style": "Right-hand bat",
       "rating": 93,
       "category": "Right-hand bat, Right-arm offbreak",
-      "price": "$1.7M"
+      "price": "1300000"
     }
   ]
   
