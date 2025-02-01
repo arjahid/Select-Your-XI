@@ -7,6 +7,7 @@ import Heder from './components/Header/Heder'
 import Aviable from './components/Aviable/Aviable';
 import AviablePlayer from './components/AviablePlayer/AviablePlayer';
 import SelectedPlayer from './components/SelectedPlayer/SelectedPlayer';
+import Subscripe from './components/Subscripe/Subscripe';
 
 function App() {
  
@@ -63,6 +64,7 @@ if (money >= price) {
       <Aviable player={players}  ></Aviable>
       <AviablePlayer handlePlayer={handlePlayer}></AviablePlayer>
       <SelectedPlayer player={players}></SelectedPlayer>
+      <Subscripe></Subscripe>
       
       
       <ToastContainer />
