@@ -3,12 +3,13 @@ import Splayer from '../Splayer/Splayer';
 
 const SelectedPlayer = ({player}) => {
     console.log(player)
-    const {player_name}=player
+    const {player_name,price}=player
+    
     return (
         <div>
             <div>here is your selected player{player_name} </div>
             {
-                player.map(player=><Splayer player={player}></Splayer>)
+                player.map((player,idx)=><Splayer key={idx} player={player}></Splayer>)
             }
         </div>
     );

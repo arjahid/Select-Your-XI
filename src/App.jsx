@@ -11,7 +11,8 @@ import SelectedPlayer from './components/SelectedPlayer/SelectedPlayer';
 function App() {
  
   const [money,setMoney]=useState(0)
-  const [players,setPlayer]=useState([])
+  const [players,setPlayers]=useState([])
+  // const [player,setPlayers]=useState([])
   
   
 // ^handle add money on main balance
@@ -32,19 +33,24 @@ function App() {
     console.log('player click', price);
 if (money >= price) {
   setMoney(money - price);
+  
   toast(`Congrats !!${player_name} is now your squad `, {
     position: "top-center",
   });
+  setPlayers([...players, player]);
+  if(players.length>=11 ){
+    toast(`You have selected 11 players`, {
+      position: "top-center",
+    });
+  }
+
 } else {
   toast(`You do not have enough money`, {
     position: "top-center",
   });
 }
-setPlayer([...players,player])
-if(players.length>=11){
-  toast(`You have selected 11 players`, {
-    position: "top-center",
-  });}
+
+
 
 }
 
