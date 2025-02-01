@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       
-      <Heder money={money}></Heder>
+      <Heder  money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
       <Aviable></Aviable>
       <AviablePlayer></AviablePlayer>

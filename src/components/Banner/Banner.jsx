@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import banner from '../../assets/img/bg-shadow.png';
 const Banner = ({handleAddMoney,money}) => {
     return (
-        <div className='w-[1320px] h-[545px] ml-10 mt-4'>
+        <div className='w-[1420px] h-[545px] ml-10 mt-4'>
         <div style={{ 
             backgroundImage: `url(${banner})`,
             backgroundSize: 'cover', 

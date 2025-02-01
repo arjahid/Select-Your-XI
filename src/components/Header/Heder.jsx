@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Heder = ({money}) => {
     return (
-        <div className='w-[1320px] h-[72px] ml-10 mt-4 flex justify-between items-center p-4 bg-white text-black '>
+        <div className='w-[1420px] h-[72px] ml-10 mt-4 flex justify-between items-center p-4 bg-white text-black sticky top-0 z-50'>
            <div>
                     <img src="/src/assets/img/logo.png" alt="" />
            </div>

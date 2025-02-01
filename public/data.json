@@ -1,6 +1,7 @@
 [
     {
       "player_name": "John Smith",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Australia",
       "batting_style": "Right-hand bat",
       "rating": 87,
@@ -9,6 +10,7 @@
     },
     {
       "player_name": "Rahul Verma",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "India",
       "batting_style": "Right-hand bat",
       "rating": 92,
@@ -17,6 +19,7 @@
     },
     {
       "player_name": "James Anderson",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "England",
       "batting_style": "Left-hand bat",
       "rating": 85,
@@ -25,6 +28,7 @@
     },
     {
       "player_name": "Carlos Mendes",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "West Indies",
       "batting_style": "Right-hand bat",
       "rating": 89,
@@ -33,6 +37,7 @@
     },
     {
       "player_name": "Hassan Riaz",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Pakistan",
       "batting_style": "Left-hand bat",
       "rating": 90,
@@ -41,6 +46,7 @@
     },
     {
       "player_name": "Kevin O'Brien",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Ireland",
       "batting_style": "Right-hand bat",
       "rating": 86,
@@ -49,6 +55,7 @@
     },
     {
       "player_name": "Nathan Lee",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "South Africa",
       "batting_style": "Right-hand bat",
       "rating": 88,
@@ -57,6 +64,7 @@
     },
     {
       "player_name": "Rizwan Sheikh",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Bangladesh",
       "batting_style": "Left-hand bat",
       "rating": 91,
@@ -65,6 +73,7 @@
     },
     {
       "player_name": "David Warner",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Australia",
       "batting_style": "Left-hand bat",
       "rating": 94,
@@ -73,6 +82,7 @@
     },
     {
       "player_name": "Samuel Mathews",
+      "player_image":"https://i.postimg.cc/v8V65qtb/world-cup-cricket-player-background.jpg",
       "country": "Sri Lanka",
       "batting_style": "Right-hand bat",
       "rating": 93,
