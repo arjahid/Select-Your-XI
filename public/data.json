@@ -1,0 +1,83 @@
+[
+    {
+      "player_name": "John Smith",
+      "country": "Australia",
+      "batting_style": "Right-hand bat",
+      "rating": 87,
+      "category": "Right-hand bat, Right-arm offbreak",
+      "price": "$1.2M"
+    },
+    {
+      "player_name": "Rahul Verma",
+      "country": "India",
+      "batting_style": "Right-hand bat",
+      "rating": 92,
+      "category": "Right-hand bat, Right-arm legbreak",
+      "price": "$1.5M"
+    },
+    {
+      "player_name": "James Anderson",
+      "country": "England",
+      "batting_style": "Left-hand bat",
+      "rating": 85,
+      "category": "Left-hand bat, Right-arm fast",
+      "price": "$950K"
+    },
+    {
+      "player_name": "Carlos Mendes",
+      "country": "West Indies",
+      "batting_style": "Right-hand bat",
+      "rating": 89,
+      "category": "Right-hand bat, Right-arm fast-medium",
+      "price": "$1.3M"
+    },
+    {
+      "player_name": "Hassan Riaz",
+      "country": "Pakistan",
+      "batting_style": "Left-hand bat",
+      "rating": 90,
+      "category": "Left-hand bat, Left-arm orthodox",
+      "price": "$1.4M"
+    },
+    {
+      "player_name": "Kevin O'Brien",
+      "country": "Ireland",
+      "batting_style": "Right-hand bat",
+      "rating": 86,
+      "category": "Right-hand bat, Right-arm medium-fast",
+      "price": "$1.1M"
+    },
+    {
+      "player_name": "Nathan Lee",
+      "country": "South Africa",
+      "batting_style": "Right-hand bat",
+      "rating": 88,
+      "category": "Right-hand bat, Right-arm offbreak",
+      "price": "$1.25M"
+    },
+    {
+      "player_name": "Rizwan Sheikh",
+      "country": "Bangladesh",
+      "batting_style": "Left-hand bat",
+      "rating": 91,
+      "category": "Left-hand bat, Right-arm legbreak",
+      "price": "$1.6M"
+    },
+    {
+      "player_name": "David Warner",
+      "country": "Australia",
+      "batting_style": "Left-hand bat",
+      "rating": 94,
+      "category": "Left-hand bat, Right-arm medium",
+      "price": "$1.8M"
+    },
+    {
+      "player_name": "Samuel Mathews",
+      "country": "Sri Lanka",
+      "batting_style": "Right-hand bat",
+      "rating": 93,
+      "category": "Right-hand bat, Right-arm offbreak",
+      "price": "$1.7M"
+    }
+  ]
+  

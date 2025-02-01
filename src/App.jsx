@@ -4,6 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Heder from './components/Header/Heder'
+import Aviable from './components/Aviable/Aviable';
+import AviablePlayer from './components/AviablePlayer/AviablePlayer';
 
 function App() {
  
@@ -27,6 +29,8 @@ function App() {
       
       <Heder money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
+      <Aviable></Aviable>
+      <AviablePlayer></AviablePlayer>
       
       <ToastContainer />
     </>
