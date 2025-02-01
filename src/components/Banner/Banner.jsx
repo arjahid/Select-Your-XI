@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import banner from '../../assets/img/bg-shadow.png';
 const Banner = ({handleAddMoney,money}) => {
     return (
@@ -32,5 +32,8 @@ const Banner = ({handleAddMoney,money}) => {
 
     );
 };
-
+Banner.propTypes={
+    handleAddMoney:PropTypes.func,
+    money:PropTypes.number
+}
 export default Banner;
