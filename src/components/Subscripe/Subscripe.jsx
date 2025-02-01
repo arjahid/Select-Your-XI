@@ -1,6 +1,6 @@
 const Subscripe = () => {
   return (
-    <div className="w-[1420px] h-[400px] ml-10 mt-4  bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+    <div className="lg:w-auto lg:h-auto md:w-[1420px] h-[400px] w-[1220px] ml-10 mt-4  bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
         <div className="text-white mt-8">
             <h2 className="text-2xl font-bold text-center pt-24">Subscribe Our NewsLater</h2>
             <h2 className="text-xl text-center pt-4">Get the letest updates and news right in your inbox!</h2>

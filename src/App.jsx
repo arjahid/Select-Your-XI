@@ -14,6 +14,7 @@ function App() {
  
   const [money,setMoney]=useState(0)
   const [players,setPlayers]=useState([])
+  const[view,setView]=useState('Avaiable')
   // const [player,setPlayers]=useState([])
   
   
@@ -62,7 +63,7 @@ if (money >= price) {
       
       <Heder  money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
-      <Aviable player={players}  ></Aviable>
+      <Aviable player={players} setView={setView}  ></Aviable>
       <AviablePlayer handlePlayer={handlePlayer}></AviablePlayer>
       <SelectedPlayer player={players}></SelectedPlayer>
       <Subscripe></Subscripe>

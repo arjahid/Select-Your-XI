@@ -13,7 +13,7 @@ const AviablePlayer = ({handlePlayer}) => {
         .then(data=>setPlayer(data))
     },[])
     return (
-        <div className="w-[1420px] h-auto ml-10 mt-4 " >
+        <div className="lg:w-auto lg:h-auto md:w-[1420px] h-auto w-[1220px] ml-10 mt-4 " >
             <h2 className="text-2xl">Avaiable Player:{players.length}</h2>
             <div className="grid grid-cols-3 gap-4 border-2 border-gray-300 p-4">
             
