@@ -27,6 +27,7 @@ const Aplayers = ({player,handlePlayer}) => {
     );
 };
 Aplayers.propTypes={
-    player:PropTypes.object
+    player:PropTypes.object,
+    handlePlayer:PropTypes.func
 }
 export default Aplayers;

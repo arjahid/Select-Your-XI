@@ -6,11 +6,14 @@ import Banner from './components/Banner/Banner'
 import Heder from './components/Header/Heder'
 import Aviable from './components/Aviable/Aviable';
 import AviablePlayer from './components/AviablePlayer/AviablePlayer';
+import SelectedPlayer from './components/SelectedPlayer/SelectedPlayer';
 
 function App() {
  
   const [money,setMoney]=useState(0)
   const [players,setPlayer]=useState([])
+  
+  
 // ^handle add money on main balance
   const handleAddMoney=()=>{
     
@@ -42,15 +45,18 @@ if(players.length>=11){
   toast(`You have selected 11 players`, {
     position: "top-center",
   });}
+
 }
+
 
   return (
     <>
       
       <Heder  money={money}></Heder>
       <Banner handleAddMoney={handleAddMoney} money={money} ></Banner>
-      <Aviable player={players}></Aviable>
+      <Aviable player={players}  ></Aviable>
       <AviablePlayer handlePlayer={handlePlayer}></AviablePlayer>
+      <SelectedPlayer player={players}></SelectedPlayer>
       
       
       <ToastContainer />

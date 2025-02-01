@@ -31,6 +31,7 @@ const AviablePlayer = ({handlePlayer}) => {
     );
 };
 AviablePlayer.propTypes={
-    players:PropTypes.array
+    players:PropTypes.array,
+    handlePlayer:PropTypes.func
 }
 export default AviablePlayer;
